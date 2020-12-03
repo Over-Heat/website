@@ -79,21 +79,24 @@ ul li.active a{
 }
 
 .p-Discord{
+    color: #000000;
+    font-size: 70px;
     position: absolute;
     top:50%;
     left: 50%;
     transform: translate(-50%,-50%)
 }
 .p-Name{
+    color: #000000;
+    font-size: 70px;
     position: absolute;
     top:60%;
     left: 50%;
     transform: translate(-50%,-50%)
 }
-.contact{
-    position: absolute;
-    top:60%;
-    left: 50%;
-    transform: translate(-50%,-50%)
-}
+.contact.html{
+    background-image:url("../hound.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
