@@ -57,3 +57,23 @@ ul li.active a{
     color: #ffffff;
     font-size: 70px;
 }
+
+.button{
+    position: absolute;
+    top:63%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #ffffff;
+    padding: 10px 30px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: #ffffff;
+    color: #000000; 
+}
