@@ -94,7 +94,7 @@ ul li.active a{
     left: 50%;
     transform: translate(-50%,-50%)
 }
-.contact.html{
+.newbackground{
     background-image:url("../hound.jpg");
     height: 100vh;
     background-size: cover;
