@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: "Century Gothic";
+
+}
+header{
+    /* background-image: linear-gradient(rbga(0,0,0,0.5),rbga(0,0,0,0.5)) url("../hound.jpg"); */
+    background-image:url("../rainbow.jpg");
+    height: 200vh;
+    background-size: cover;
+    background-position: center;
+}
+.newbackground{
+    background-image:url("../rainbow.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.aboutBack{
+    background-image:url("../rainbow.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+ }
+/*BackGround end */ 
+.a-About{
+    color: #000000;
+    font-size: 50px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+/*About Text End*/
