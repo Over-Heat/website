@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: "Century Gothic";
+
+}
+header{
+    /* background-image: linear-gradient(rbga(0,0,0,0.5),rbga(0,0,0,0.5)) url("../hound.jpg"); */
+    background-image:url("../rainbow.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.newbackground{
+    background-image:url("../rainbow.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.aboutBack{
+    background-image:url("../rainbow.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+ }
+/*End of Backgroudn css*/
+
+
+
+/*Contact Text, etc*/
+.p-Discord{
+    color: #000000;
+    font-size: 40px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.p-Name{
+    color: #000000;
+    font-size: 40px;
+    position: absolute;
+    top:55%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.p-Email{
+    color: #000000;
+    font-size: 40px;
+    position: absolute;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+/*Fancy Home Button*/
+.button{
+    position: absolute;
+    border: 1px solid #ffffff;
+    padding: 10px 30px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.6s ease;    
+    top:63%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+/*Page Header*/
+.p-header{
+    color: #000000;
+    font-size: 40px;
+    position: absolute;
+    top:5%;
+    left: 15%;
+    transform: translate(-50%,-50%)
+}
